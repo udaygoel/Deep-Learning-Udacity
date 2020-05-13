@@ -10,6 +10,7 @@ The project uses these files:
 - labels.txt: The sentiment labels corresponding to the reviews.
 - requirements.txt: python libraries to load in the python environment. 
 - PNG Files: These are images used for illustration purposes in the Notebook
+- Sentiment_Classification.html: This is the html version of the Notebook. It has been added to show the Bokeh and T-SNE plots as these do not show up when the Notebook is viewed on Git.
 
 ### Contents
 
