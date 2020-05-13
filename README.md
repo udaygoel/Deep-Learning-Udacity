@@ -8,9 +8,9 @@ Here you can find several projects covering various neural network architectures
 
 You can view and launch the following projects:
 
-- [Sentiment Classification using Feed Forward Networks](https://github.com/udaygoel/Data-Analyst-Udacity/tree/master/Titanic-Survival-Stats)
+- [Sentiment Classification using Feed Forward Networks](https://github.com/udaygoel/Deep-Learning-Udacity/tree/master/Sentiment%20Classification%20using%20Feed%20Forward%20Networks)
 
-  This project uses Python to analyse the data set from Kaggle. It gives a list of the passengers, with their particular details,  and specifies whether they survived the sinking of the RMS Titanic. The project is to analysis the data and brainstorm what questions we can answer. The analysis is conducted in Jupyter Notebook using Python libraries, such as Pandas, Numpy and Matplotlib.
+  This project develops a sentiment classification model using Feed Forward Networks. The Project mimics the lesson in the [Udacity Deep Learning Nanodegree Program](https://www.udacity.com/course/deep-learning-nanodegree--nd101) and runs through each step in detail. The model is trained on movie reviews and is able to achieve more than 80% accuracy.
 
 - [Prosper-Loan-Data-Exploration](https://github.com/udaygoel/Data-Analyst-Udacity/tree/master/Prosper-Loan-Data-Exploration)
 
