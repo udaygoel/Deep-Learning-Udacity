@@ -15,7 +15,7 @@ The project uses these files and folders:
 
 ### Contents
 
-There are 8 main sections of the Project.
+There are 4 main sections of the Project.
 
 1. Importing Dataset and preprocessing to create the vocabulary items. These are saved in the preprocess.p file.
 
