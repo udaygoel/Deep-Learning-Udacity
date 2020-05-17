@@ -24,3 +24,7 @@ You can view and launch the following projects:
 
   This project creates a Generative Adversarial Network (GAN) to generate new images of human faces. The GAN consists of a Generator and a Discriminator. The Generator creates new images using an input vector and the Discriminator compares the generated new image with the actual image. The network trains as the Generator learns to create new images (with no knowledge of actual image) that the Discriminator will accept as the true image, while the Discriminator learns to identify the new image as different from the actual image.  The GAN is first tested on [MNIST](http://yann.lecun.com/exdb/mnist/) data, which is a dataset containing images of handwritten digits, to see quickly how well the model trains. Once satisfied, the GAN is trained on the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) data, which is a dataset of over 200,000 celebrity images with annotations. The trained GAN, in this project, is able to create images that all look like human faces.
 
+- [Quadcopter - Reinforcement Learning]()
+
+  This project applies Reinforcement Learning algorithm to design an agent to fly a quadcopter.  The implementation is inspired by the methodology in the original [Deep Deterministic Policy Gradient (DDPG) paper](https://arxiv.org/abs/1509.02971). This is based on the actor critic model where both are implemented using deep neural network. The task is to train the quadcopter to fly from an initial location to a target location. 
+
