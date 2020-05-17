@@ -16,7 +16,7 @@ You can view and launch the following projects:
 
   This project develops a classifier to identify the dog breed using Convolutional Neural Networks. The network architecture applies transfer learning and uses the bottleneck features from Resnet 50 architecture in Keras to develop the classifier model. There are 133 dog breeds with 6680 training images, 835 validation images and 836 testing images. The project also uses the human face detection tool from OpenCV. Towards the end the classifier is run on a series of pictures collected from internet and identifies the breed of the dog.
 
-- [Prosper-Loan-Data-Visualization](https://github.com/udaygoel/Data-Analyst-Udacity/tree/master/Prosper-Loan-Data-Visualization)
+- [TV Script Generation - LSTM Network](https://github.com/udaygoel/Deep-Learning-Udacity/tree/master/TV%20Script%20Generation%20-%20LSTM%20Network)
 
-  This project uses Prosper-Loan-Data-Exploration analysis results to create visualizations in order to present insights from data. The visualization is created using D3.js and HTML and presents an animation and an interactive feature.
+  This project uses a subset of [Simpsons](https://en.wikipedia.org/wiki/The_Simpsons) TV scripts to train a LSTM neural network. This network is then used to generate a new TV Script for a scene at [Moe's Tavern](https://simpsonswiki.com/wiki/Moe's_Tavern). The input data is processed to create tokens, tokenize punctuations, vocabulary and create lookup tables to use for training the network. The network creates an embedding table using the vocabulary and the output of the embedding layer is fed as input to the LSTM network. The Project creates a new script that if fairly legible to read. This can be further improved by training on a bigger dataset. The hyperparameters can also be optimized depending on the output quality when trained on a different dataset.
 
