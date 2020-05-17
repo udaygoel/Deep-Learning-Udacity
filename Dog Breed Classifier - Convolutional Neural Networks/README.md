@@ -68,3 +68,7 @@ There are 8 main sections of the Project.
      - 2 are correctly identified. The one not identified has the person (Thor) wearing a helmet that hides some facial features.
    - **Neither** human nor dog: 8 images
      - 6 are correctly identified as neither human nor dog. The 2 that are incorrectly identified are both fox. These are the only images for fox. It appears that the human face detector is identifying fox as a human.
+
+
+
+This project shows the benefit of transfer learning. We were able to achieve a much higher accuracy from 8% to 74% - 82% and a very fast training process. We can also identify one limitation from the dog image that was not identified as a dog. If the pre-trained network misclassifies an image, the architecture built on top of such network will not be able to correct for this and also result in an incorrect classification. Hence, the pre-trained network needs to be chosen wisely to reduce classification errors in the final network.
